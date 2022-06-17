@@ -52,7 +52,7 @@ $ frontle install-original cordova-getplatformid
 
 ## People
 
-The original author of frontle-modal is [MushStory](https://github.com/MushStory)
+The original author of cordova-getplatformid is [MushStory](https://github.com/MushStory)
 
 
 
