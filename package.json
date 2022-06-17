@@ -1,6 +1,6 @@
 {
   "name": "cordova-getplatformid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get platform id in Cordova",
   "keywords": [
     "platform id",
