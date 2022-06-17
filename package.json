@@ -1,0 +1,33 @@
+{
+  "name": "cordova-getplatformid",
+  "version": "1.0.0",
+  "description": "Get platform id in Cordova",
+  "keywords": [
+    "platform id",
+    "get platform id",
+    "web",
+    "app",
+    "android",
+    "ios",
+    "desktop",
+    "cordova",
+    "electron",
+    "chrome extension"
+  ],
+  "author": "Yoon HyungJun <y37653@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artifriends-inc/cordova-getPlatformId.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Artifriends-inc/cordova-getPlatformId/issues"
+  },
+  "homepage": "https://github.com/Artifriends-inc/cordova-getPlatformId#readme",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "getPlatformId.js"
+  ],
+  "dependencies": {}
+}
