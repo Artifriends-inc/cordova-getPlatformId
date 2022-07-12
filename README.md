@@ -9,7 +9,7 @@ Get platform id in cordova
 [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 
 ```javascript
-import {GetPlatformId} from "../../frontle/browser_modules/cordova-getPlatformId/getPlatformId.js";
+import {GetPlatformId} from "../../frontle/browser_modules/cordova-getplatformid/getPlatformId.js";
 
 
 // get platform id
