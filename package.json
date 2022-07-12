@@ -1,6 +1,6 @@
 {
   "name": "cordova-getplatformid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get platform id in Cordova",
   "keywords": [
     "platform id",
@@ -10,11 +10,12 @@
     "android",
     "ios",
     "desktop",
+    "frontle",
     "cordova",
     "electron",
     "chrome extension"
   ],
-  "author": "Yoon HyungJun <y37653@gmail.com>",
+  "author": "Yun HyeongJun <y37653@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",

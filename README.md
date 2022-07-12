@@ -2,8 +2,6 @@
 
 Get platform id in cordova
 
-
-
 [![NPM Version][npm-version-image]][npm-url]
 
 [![NPM Install Size][npm-install-size-image]][npm-install-size-url]
@@ -11,27 +9,10 @@ Get platform id in cordova
 [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 
 ```javascript
-'use strict';
+import {GetPlatformId} from "../../frontle/browser_modules/cordova-getPlatformId/getPlatformId.js";
 
-export class GetPlatformId {
-    // browser, android, ios, electron
-    static getId = () => {
-        let result = '';
 
-        // platform is browser
-        if(location.href.substring(0, 4) === 'http'){
-            // browser
-            if(window.cordova === undefined) result = 'browser';
-            // live reload
-            else result = window.cordova.platformId;
-        }
-        // platform is cordova android or ios or electron
-        else result = window.cordova.platformId;
-
-        return result;
-    }
-}
-
+// get platform id
 console.log(GetPlatformId.getId()); // browser, ios, android, electron
 ```
 
@@ -39,13 +20,31 @@ console.log(GetPlatformId.getId()); // browser, ios, android, electron
 
 ## Installation
 
-For typical cordova projects, copy and use the code above appropriately
-
-
-How to install with Frontle
+**How to install from Frontle**
 
 ```shell
-$ frontle install-original cordova-getplatformid
+$ frontle install cordova-getplatformid
+```
+
+
+
+**How to install from Web**
+
+For typical web projects, copy and use the code at getPlatformId.js in below repositorys
+
+https://github.com/Artifriends-inc/cordova-getPlatformId (getPlatformId.js)
+
+
+
+## Function
+
+#### GetPlatformId.getId()
+
+Get platform id
+
+```javascript
+// get platform id
+console.log(GetPlatformId.getId()); // browser, ios, android, electron
 ```
 
 
